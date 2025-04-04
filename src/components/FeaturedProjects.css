@@ -5,9 +5,9 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 1920px) and (min-width: 1366px) {
+@media screen and (max-width: 1920px) {
   .featured-projects {
-    height: 150vh;
+    height: 150vh !important;
   }
 }
 
