@@ -1,0 +1,107 @@
+.border-wrapper-services {
+  height: 110vh;
+  max-width: 100vw;
+  border-radius: 10rem 10rem 0 0;
+  background-image: url("background-main-services.jpg");
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.section-container {
+  width: 88%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section-container h2 {
+  text-align: left;
+  margin-bottom: 50px;
+  padding-top: 20px;
+}
+
+.section-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  width: 100%;
+  padding: 55px 0;
+  /* border-bottom: 1px solid #ddd; */
+  /* transition: width 0.3s ease-in-out; */
+}
+
+.section-item.expanded {
+  width: 85%;
+  padding-left: 7.5%; /* Pomera ulevo */
+}
+
+.number {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.section-image {
+  width: 300px;
+  height: 90px;
+  object-fit: cover;
+  margin-left: 3rem;
+}
+
+.section-item h4 {
+  flex-grow: 1;
+  font-size: 33px;
+  margin: 0;
+  color: white;
+  text-align: left;
+  margin-left: 8rem;
+}
+
+.section-item p {
+  flex-grow: 2;
+  font-size: 22px;
+  color: white;
+}
+
+.toggle-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+
+.toggle-btn img {
+  width: 100%;
+  height: 100%;
+}
+
+.span-green {
+  color: var(--green);
+}
+
+.divider {
+  width: 100%; /* Uvek 100% širine */
+  height: 1px;
+  background: #ddd; /* Siva boja linije */
+  /* margin: 10px 0;  */
+}
+
+.section-wrapper .toggle-btn img {
+  width: 70px; /* Promeni na željenu širinu */
+  height: 70px; /* Promeni na željenu visinu */
+  margin-top: -1rem;
+  margin-left: -1rem;
+}
+
+.section-wrapper.expanded {
+  background-color: #414348; /* Boja pozadine kad je sekcija proširena */
+}
+
+.uvodni-tekst-3 {
+  margin-left: 3rem;
+}
+
+.uvodni-tekst-4 {
+  margin-left: 4rem;
+}

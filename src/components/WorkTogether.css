@@ -1,0 +1,44 @@
+.border-wrapper {
+  max-width: 110vw;
+  border-radius: 10rem 10rem 0 0;
+  background-color: white;
+}
+
+.work-together {
+  height: 100vh;
+  width: 88vw;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* padding-top: 13rem;
+  padding-bottom: 13rem; */
+}
+
+.work-together p {
+  font-size: 2rem;
+  color: #212529;
+  font-weight: 700;
+}
+
+.work-together h1 {
+  font-size: 17rem;
+  color: #212529;
+}
+
+.marg {
+  margin-top: -5rem;
+}
+
+.rectangle-button-worktogether {
+  padding: 40px 290px;
+  background: #212529;
+  color: white;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}

@@ -1,0 +1,120 @@
+.color-wrap {
+  max-width: 100vw;
+  height: 100vh;
+  background-image: url("background-main-services.jpg");
+  background-size: cover;
+}
+
+.hero {
+  display: flex;
+  width: 88%;
+  height: 110vh;
+  margin: 0 auto;
+}
+
+.content {
+  width: 58.33%;
+  margin-top: 155px;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  margin-top: -37px;
+}
+
+.grow {
+  font-size: 11.2rem;
+  margin-top: -55px;
+  margin-left: 11px;
+  color: var(--green);
+  font-weight: 900;
+}
+
+.your {
+  display: flex;
+  margin: 0;
+  align-items: flex-start;
+  font-size: 3.1rem;
+}
+
+.business {
+  margin-top: -19px;
+}
+
+/* Desna strana */
+
+.image-container {
+  width: 41.67%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -18rem;
+}
+
+.split-circle {
+  display: flex;
+  gap: 4px; /* Razmak između polovina */
+  width: 600px;
+  height: 600px;
+}
+
+.left-half,
+.right-half {
+  width: 50%;
+  height: 100%;
+  overflow: hidden; /* Sprečava da slika izađe van polovine */
+  border-radius: 100px 0 0 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-half {
+  border-radius: 0 100px 100px 0;
+  transform: translateY(-100px);
+}
+
+/* Stil za slike */
+.left-half img,
+.right-half img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Slika se lepo uklapa bez izobličenja */
+}
+
+.content h1,
+p {
+  color: white;
+}
+
+.big-letters {
+  margin-left: 5rem;
+}
+
+.arrow-p {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.img-arrow {
+  size: 11rem;
+}
+
+.light-source {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%; /* Pokriva 80% hero sekcije */
+  height: 80%;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0) 80%
+  );
+  border-radius: 50%; /* Da bi bilo kružno */
+  box-shadow: 0 0 50px 30px rgba(255, 255, 255, 0.2); /* Blagi sjaj */
+  transform: translate(-50%, -50%); /* Centriranje */
+  pointer-events: none; /* Da ne ometa klikove */
+}

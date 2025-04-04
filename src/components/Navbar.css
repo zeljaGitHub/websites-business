@@ -1,0 +1,72 @@
+/* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  position: relative;
+  transition: background-color 0.3s;
+  margin: 0 auto;
+  z-index: 9999;
+}
+
+.navbar.nav-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: #000; /* Možeš promeniti boju kad se fiksira */
+  /* width: 90vw; */
+}
+
+.navbar .logo {
+  font-size: 2.2rem;
+  font-weight: 900;
+  margin-left: 3rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+  margin-right: 3rem;
+  font-weight: 900;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.4rem;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #30ff00; /* Boja pri hoveru */
+}
+
+.nav-placeholder {
+  height: 60px; /* Adjust based on navbar height */
+  display: none;
+}
+
+.nav-fixed + .nav-placeholder {
+  display: block;
+}
+
+.logo {
+  font-size: 1.9rem;
+  font-weight: bold;
+  margin-left: 3rem;
+  transition: color 0.3s;
+}
+
+.logo:hover {
+  cursor: pointer;
+  color: #30ff00; /* Isti efekat kao na linkovima */
+}
