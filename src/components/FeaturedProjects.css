@@ -5,6 +5,12 @@
   margin: 0 auto;
 }
 
+@media screen and (max-width: 1920px) and (min-width: 1366px) {
+  .featured-projects {
+    height: 150vh;
+  }
+}
+
 .text-div {
   width: 88vw;
   margin: 0 auto;
