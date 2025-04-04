@@ -1,6 +1,6 @@
 .footer {
   height: 80vh;
-  background-image: url("background-logo.jpg");
+  background-image: url("/background-logo.jpg");
   background-size: cover;
   border-radius: 10rem 10rem 0 0;
   margin: 0 auto;
